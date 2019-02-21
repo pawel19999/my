@@ -1,6 +1,21 @@
 {
-  "name": "my_package",
-   "description": "",
-   "version": "1.0.0",
-   "main": "pawel-nodejs.js"
+  "name": "nodejs",
+  "version": "0.0.1",
+  "description": "My Node.js sample app",
+  "main": "pawel-nodejs.js",
+  
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node pawel-nodejs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pawel19999/my.git"
+  },
+  "author": "Paweł Janczarek",
+  "license": "CC-BY-1.0",
 }
+
