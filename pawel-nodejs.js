@@ -6,7 +6,7 @@ hostname = process.env.IP || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
+  res.end('<b>Hello World</b>\n');
 });
 
 server.listen(port, hostname, () => {
